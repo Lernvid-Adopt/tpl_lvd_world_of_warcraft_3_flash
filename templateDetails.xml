@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+	<name>World_of_Warcraft_3_Flash_v4</name>
+	<creationDate>26.10.2010</creationDate>
+	<author>Juergen Koller</author>
+	<copyright>Copyright LernVid.com</copyright>
+	<authorEmail>webmaster@lernvid.com</authorEmail>
+	<authorUrl>http://www.lernvid.com</authorUrl>
+	<version>4.0</version>
+	<description>
+		&lt;h1&gt;World of Warcraft 3 Flash - Joomla Template&lt;/h1&gt;
+		&lt;a href="http://www.lernvid.com" target="_blank"&gt;Authors Homepage&lt;/a&gt;&lt;br /&gt;
+		&lt;a href="http://www.lernvid.com/lizenz" target="_blank"&gt;Licence Information&lt;/a&gt;&lt;br /&gt;
+		&lt;img src="../templates/world_of_warcraft_3_flash_v4/template_thumbnail.png" style="float:left; padding:10px 10px 10px 0;" /&gt;
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>head_includes.php</filename>
+		<filename>index.html</filename>
+		<filename>favicon.ico</filename>
+		<filename>css/index.html</filename>
+		<filename>fl/wow3_header.swf</filename>
+		<filename>fl/content_down.swf</filename>
+		<filename>images/index.html</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>jscolor/index.html</filename>
+		<filename>jscolor/arrow.gif</filename>
+		<filename>jscolor/cross.gif</filename>
+		<filename>jscolor/hs.png</filename>
+		<filename>jscolor/hv.png</filename>
+		<filename>jscolor/jscolor.js</filename>
+		<filename>html/modules.php</filename>
+		<filename>html/index.html</filename>
+		<filename>html/com_content/article/default.php</filename>
+		<filename>html/com_content/article/index.html</filename>
+		<filename>html/com_content/article/form.php</filename>
+		<filename>html/com_content/category/blog.php</filename>
+		<filename>html/com_content/category/blog_item.php</filename>
+		<filename>html/com_content/category/blog_links.php</filename>
+		<filename>html/com_content/category/index.html</filename>
+		<filename>html/com_content/category/default_items.php</filename>
+		<filename>html/com_content/category/default.php</filename>
+		<filename>html/com_content/frontpage/default.php</filename>
+		<filename>html/com_content/frontpage/default_item.php</filename>
+		<filename>html/com_content/frontpage/default_links.php</filename>
+		<filename>html/com_content/frontpage/index.html</filename>
+		<filename>html/com_content/section/blog.php</filename>
+		<filename>html/com_content/section/blog_item.php</filename>
+		<filename>html/com_content/section/blog_links.php</filename>
+		<filename>html/com_content/section/default.php</filename>
+		<filename>html/com_content/section/index.html</filename>
+		<filename>html/com_content/index.html</filename>
+	</files>
+		<images>
+		<filename>images/bg.jpg</filename>
+		<filename>images/bg_up.jpg</filename>
+		<filename>images/button_bg.gif</filename>
+		<filename>images/container.jpg</filename>
+		<filename>images/content.jpg</filename>
+		<filename>images/contentheading.gif</filename>
+		<filename>images/content_down_left.gif</filename>
+		<filename>images/content_up_left.gif</filename>
+		<filename>images/emailButton.png</filename>
+		<filename>images/footer.jpg</filename>
+		<filename>images/header.jpg</filename>
+		<filename>images/list.png</filename>
+		<filename>images/list_hover.png</filename>
+		<filename>images/menu.jpg</filename>
+		<filename>images/menu_hover.jpg</filename>
+		<filename>images/menu_lb.jpg</filename>
+		<filename>images/menu_lt.jpg</filename>
+		<filename>images/menu_rb.jpg</filename>
+		<filename>images/menu_rt.jpg</filename>
+		<filename>images/module_left_h3.gif</filename>
+		<filename>images/module_right_h3.jpg</filename>
+		<filename>images/nav.gif</filename>
+		<filename>images/navigation.gif</filename>
+		<filename>images/pdf_button.png</filename>
+		<filename>images/printButton.png</filename>
+		<filename>images/sep.gif</filename>
+		<filename>images/user_bg.gif</filename>
+		<filename>images/user_h3.gif</filename>
+		<filename>params.ini</filename>
+		</images>
+	<css>
+		<filename>css/template.css</filename>
+		<filename>css/ie5x6x.css</filename>
+		<filename>css/ie7.css</filename>
+	</css>
+	<params>		
+		<param type="spacer" default="&lt;h3&gt; &lt;em&gt; (( Welcome to your Template Configuration )) &lt;/em&gt; &lt;/h3&gt;" />
+		<param type="spacer" default="&lt;em&gt;hover the names of the parameters to get tooltip helps&lt;/em&gt;" />
+		<param type="spacer" default="&lt;h3&gt;==========================================&lt;/h3&gt;" />
+		<param type="spacer" default="&lt;h1&gt;Flash Effects&lt;/h1&gt;" />
+     	<param name="useFlashHeader" type="radio" default="1" label="Use IMBA Flash Header?" description="Here you can on / off the IMBA Flash Header xD">
+	      <option value="1">Yes</option>
+	      <option value="0">No</option>
+	    </param>
+		<param type="spacer" default="&lt;h3&gt;==========================================&lt;/h3&gt;" />
+		<param type="spacer" default="&lt;h1&gt;Guild Name&lt;/h1&gt;" />
+     	<param name="showGuildName" type="radio" default="1" label="Show Guild Name in Header?" description="Here you can on / off the Guild Name in your Header. An Alternate to this Guild Name is that you can edit the .psd file included in the Download. .psds can be opened and edited with Photoshop, Fireworks or Gimp">
+	      <option value="1">Yes</option>
+	      <option value="0">No</option>
+	    </param>
+		<param name="GuildName" type="textarea" rows="1" cols="40" default="Your Guild Name" label="Guild Name" description="Enter the Name of your Guild, Fansite or Community"></param>
+		<param name="FontSize" type="text" default="26" label="Guild Name Font Size" description="Default = 26 Font Size of the Guild Name in Pixel - Just play a bit with this to find out your best setting."></param>
+		<param name="FontColor" type="text" default="FF8C00" class="color" label="Guild Name Color" description="Default: FF8C00 = Orange | Color of the Guild Name in Hexacode"></param>
+		<param type="spacer" default="&lt;h3&gt;==========================================&lt;/h3&gt;" />
+		<param type="spacer" default="&lt;h1&gt;Copyright text&lt;/h1&gt;" />
+		<param name="CopyrightInfo" type="textarea" rows="5" cols="40" default="Copyright my World of Warcraft Guild" label="CopyrightInfo in the Footer" description="Here you can enter a copright description that will be visible in the bottom of the page. - You can also add an image with with html code"></param>
+		<param type="spacer" default="&lt;h3&gt;==========================================&lt;/h3&gt;" />
+		<param description="" label="" default="&lt;script src='../templates/world_of_warcraft_3_flash_v4/jscolor/jscolor.js' type='text/javascript'&gt;&lt;/script&gt;" type="spacer" name="" />		
+	</params>
+	<positions>
+		<position>top</position>
+		<position>debug</position>
+		<position>breadcrumb</position>
+		<position>wow3-slider</position>
+		<position>footer</position>
+		<position>left</position>
+		<position>right</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+	</positions>
+</install>
